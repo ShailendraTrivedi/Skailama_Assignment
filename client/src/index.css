@@ -7,3 +7,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.bb {
+  @apply border-2 border-black;
+}
+
+.app {
+  min-height: 100vh;
+}

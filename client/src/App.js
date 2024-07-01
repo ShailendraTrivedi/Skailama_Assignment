@@ -1,10 +1,11 @@
 import React from "react";
+import { NewProject, Project } from "./pages";
 
 const App = () => {
   return (
-    <div className="min-h-screen w-full flex justify-center items-center bg-gray-200 text-2xl font-bold">
-      Welcome, <br />
-      The Boiler Plate are ready to use.
+    <div className="app">
+      {/* <NewProject /> */}
+      <Project />
     </div>
   );
 };
